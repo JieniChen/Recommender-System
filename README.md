@@ -1,3 +1,8 @@
+
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 # Recommender-System
 This code use the data of restaurant-rating data set
 In ths code, we applied mutlipe algorithms to complete the preditive classification for the recommender systm
@@ -95,6 +100,8 @@ Here is the result of the code:
 
 # How the number of neighbors impacts the performances
 Examine how the number of neighbors impacts the performances of User based Collaborative Filtering or Item based Collaborative Filtering
+
+
 ![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-17.png)
 ![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-18.png)
 
