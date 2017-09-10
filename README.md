@@ -18,8 +18,39 @@ SVD algorithm: the singular value decomposition (SVD) is a factorization of a re
 ![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/chart1-2.png)
 
 
+# PMF
+PMF algorithm: One of the most popular approaches to collaborative filtering is based on low-dimensional factor models. The idea behind such models is that attitudes or preferences of a user are determined by a small number of unobserved factors. In a linear factor model, a user’s preferences are modeled by linearly combining item factor vectors using user-specific coefficients. For example, for N users and M movies, the N × M preference matrix R is given by the product of an N × D user coefficient matrix U T and a D × M factor matrix V . Training such a model amounts to finding the best rank-D approximation to the observed N × M target matrix R under the given loss function.
+
+The Probabilistic Matrix Factorization (PMF) model that models the user preference matrix as a product of two lower-rank user and movie matrices. The PMF algorithm’s code result is showing as below
+
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-3.png)
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-4.png)
+
+# NMF
+Non-negative matrix factorization (NMF) has previously been shown to be a useful decomposition for multivariate data. Two different multi plicative algorithms for NMF are analyzed. They differ only slightly in the multiplicative factor used in the update rules. One algorithm can be shown to minimize the conventional least squares error while the other minimizes the generalized Kullback-Leibler divergence. The monotonic convergence of both algorithms can be proven using an auxiliary function analogous to that used for proving convergence of the Expectation- Maximization algorithm. The algorithms can also be interpreted as diagonally rescaled gradient descent, where the rescaling factor is optimally chosen to ensure convergence. The NMF algorithm result is showing as below:
+
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-5.png)
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-6.png)
 
 
+# Collaborative filtering (CF)
+Collaborative filtering (CF) is a technique used by recommender systems. Collaborative filtering has two senses, a narrow one and a more general one.
+
+In the newer, narrower sense, collaborative filtering is a method of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating). The underlying assumption of the collaborative filtering approach is that if a person A has the same opinion as a person B on an issue, A is more likely to have B's opinion on a different issue than that of a randomly chosen person. For example, a collaborative filtering recommendation system for television tastes could make predictions about which television show a user should like given a partial list of that user's tastes (likes or dislikes).
+
+In the more general sense, collaborative filtering is the process of filtering for information or patterns using techniques involving collaboration among multiple agents, viewpoints, data sources, etc. Applications of collaborative filtering typically involve very large data sets. Collaborative filtering methods have been applied to many kinds of data including: sensing and monitoring data, such as in mineral exploration, environmental sensing over large areas or multiple sensors; financial data, such as financial service institutions that integrate many financial sources; or in electronic commerce and web applications where the focus is on user data, etc. The remainder of this discussion focuses on collaborative filtering for user data, although some of the methods and approaches may apply to the other major applications as well.
+
+The result for User based Collaborative Filtering algorithm’s result is showing as below
+
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-7.png)
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-8.png)
+
+# Item based Collaborative Filtering 
+Item based Collaborative Filtering algorithm is the same logic as the user based collaborative filtering algorithm, the only different is that they are relay on the different categories. The result of Item based Collaborative Filtering algorithm is showing as below: 
+
+
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-9.png)
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-10.png)
 
 
 # Reference
