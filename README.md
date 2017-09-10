@@ -10,8 +10,16 @@ The root-mean-square deviation (RMSD) or root-mean-square error (RMSE) is a freq
 
 In statistics, mean absolute error (MAE) is a measure of difference between two continuous variables. Assume X and Y are variables of paired observations that express the same phenomenon. Examples of Y versus X include comparisons of predicted versus observed, subsequent time versus initial time, and one technique of measurement versus an alternative technique of measurement. Consider a scatter plot of n points, where point i has coordinates (xi, yi). Mean Absolute Error (MAE) is the average vertical distance between each point and the Y=X line, which is also known as the One-to-One line. MAE is also the average horizontal distance between each point and the Y=X line.
 
+Where a prediction model is to be fitted using a selected performance measure, in the sense that the least squares approach is related to the mean squared error, the equivalent for mean absolute error is least absolute deviations.
+
 # SVD
 SVD algorithm: the singular value decomposition (SVD) is a factorization of a real or complex matrix. It is the generalization of the eigen-decomposition of a positive semidefinite normal matrix (for example, a symmetric matrix with positive eigenvalues) to any m × n matrix via an extension of polar decomposition. It has many useful applications in signal processing and statistics.
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-1.png)
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/chart1-2.png)
+
+
+
+
 
 
 # Reference
