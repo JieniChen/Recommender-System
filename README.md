@@ -52,6 +52,54 @@ Item based Collaborative Filtering algorithm is the same logic as the user based
 ![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-9.png)
 ![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-10.png)
 
+# Comparision of all the algorithms used above
+
+## fold-2
+Compare the performances of User-based collaborative filtering, item-based collaborative filtering, SVD, PMF, NMF on fold-2 with respect to RMSE and MAE. Please make sure you test the five algorithms on the same fold-2 so the results are comparable.
+
+The below picture shows the running result for User-based collaborative filtering, item-based collaborative filtering, SVD, PMF, NMF on fold-2 with RMSE and MAE:
+
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-11.png)
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-12.png)
+
+
+We can see the comparison graph as below:
+
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-13.png)
+
+We can see the SVD is most likely the algorithm to achieve the lowest RMSE and MAE value and the NMF, User-based CF and item-Based CF are achieve high RMSE and MAE value. 
+
+## fold-3
+Compare the performances of User-based collaborative filtering, item-based collaborative filtering, SVD, PMF, NMF on fold-3 with respect to RMSE and MAE:
+
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-14.png)
+
+
+We can see the PMF is most likely the algorithm to achieve the lowest RMSE and MAE value and the NMF, User-based CF and item-Based CF are achieve high RMSE and MAE value. 
+
+# Mean Value Comparision
+Compare the average (mean) performances of User-based collaborative filtering, item-based collaborative filtering, SVD, PMF, NMF with respect to RMSE and MAE. 
+
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-15.png)
+
+We can see the PMF is most likely the algorithm to achieve the lowest RMSE and MAE value and the NMF, User-based CF and item-Based CF are achieve high RMSE and MAE value. 
+
+
+Low-rank approximations based on minimizing the sum-squared distance can be found using Singular Value Decomposition (SVD). SVD finds the matrix Rˆ = U T V of the given rank which minimizes the sum-squared distance to the target matrix R. Since most real-world datasets are sparse, most entries in R will be missing. In those cases, the sum-squared distance is computed only for the observed entries of the target matrix R, this seemingly minor modification results in a difficult non-convex optimization problem which cannot be solved using standard SVD implementations.
+
+# Compare cosine, MSD, Person Similarities
+Examine how the cosine, MSD (Mean Squared Difference), and Pearson similarities impact the performances of User based Collaborative Filtering and Item based Collaborative Filtering.
+Here is the result of the code:
+
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-16.png)
+
+# How the number of neighbors impacts the performances
+Examine how the number of neighbors impacts the performances of User based Collaborative Filtering or Item based Collaborative Filtering
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-17.png)
+![alt text](https://github.com/JieniChen/Recommender-System/blob/master/result/Picture1-18.png)
+
+
+
 
 # Reference
 https://en.wikipedia.org/wiki/Root-mean-square_deviation
